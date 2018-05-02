@@ -1,0 +1,40 @@
+{
+  "name": "rxjs-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon --watch build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phibonacci85/rxjs-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phibonacci85/rxjs-playground/issues"
+  },
+  "homepage": "https://github.com/phibonacci85/rxjs-playground#readme",
+  "dependencies": {
+    "colour": "^0.7.1",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-load-plugins": "^1.5.0",
+    "nodemon": "^1.17.3",
+    "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.0.0",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  }
+}
